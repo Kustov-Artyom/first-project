@@ -186,7 +186,7 @@ figcaption+p {
 th {
     color: rgb(41, 92, 75);
 }
-#form-reg {
+#contact-form {
     text-align: center;
 }
 .ava {
@@ -195,8 +195,66 @@ th {
 .ava img {
     border-radius: 60%;
 }
-#form-reg p {
+#contact-form p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
-
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="tel"] {
+    background-color: #eddfff;
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+}
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form textarea {
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#topic {
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"] {
+    background-color: #824ec5;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #b098cf;
+}
+#contact-form #topic {
+    width: 250px;
+} 
